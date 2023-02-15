@@ -1,0 +1,108 @@
+*{padding: 0; box-sizing: border-box; margin: 0;}
+
+body{
+
+  font-family: 'Fira Code', monospace;
+  background-color: #CDFAD7;
+  font-size: 14px;
+
+
+}
+
+
+
+.container {
+  display: block;
+  text-align: center;
+  
+  
+  
+}
+
+.container > * {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+
+
+.search-box{
+
+  width: 80%;
+  margin-top: 10px;
+
+}
+
+.input{
+
+  outline: none;
+  width: 66.5%;
+  height: 50px;
+  font-size: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.1);
+
+}
+
+.btn-lupa {
+  border: none;
+  border-radius: 50%;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 24px;
+  height: 38px;
+  width: 38px;
+  box-shadow: rgba(255, 255, 255, 0.5);
+}
+
+.btn-lupa:hover {
+
+  background-color: #00ccff;
+
+}
+.results{
+  margin-top: 10px;
+  background-color: rgba(255, 255, 255, 0.7); 
+  width: 56.5%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  
+  
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin: 5px 0;
+}
+
+
+table {
+  border-spacing: 13px;
+  text-transform: uppercase;
+  
+}
+
+td, th {
+  border-bottom: 1px solid #ccc;
+}
+
+thead > tr{
+  background-color: #05aa32;
+  color: white;
+  padding: 0;
+  
+
+}
+
+tr{
+
+  border-width: 2px;
+  border: #05aa32 solid;
+  width: 100%;
+
+}
