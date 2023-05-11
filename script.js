@@ -504,7 +504,31 @@ const centrosDeCusto = [
    {
     descricao: 'CAPEX 2022 - MANUTENÇÃO CORRETIVA E PREVENTIVA NAS MÁQUINAS PELETIZADORAS',
     codigo: '300187'
+  },
+  
+  {
+    descricao: 'LINHA 03 - GALPÃO 11M PE DIREITO',
+    codigo: '300218'
+  },
+
+  {
+    descricao: 'LINHA 03 - COBERTURA DA ÁREA DE EXPEDIÇÃO',
+    codigo: '300219'
+  },
+
+  {
+    descricao: 'LINHA 03 - ELÉTRICA E AUTOMAÇÃO',
+    codigo: '300220'
+  },
+
+   {
+    descricao: 'LINHA 03 - PAVIMENTAÇÃO DA ÁREA DE ACESSO A EXPEDIÇÃO',
+    codigo: '300221'
   }
+  
+  
+  
+  
 
 ];
 
